@@ -2,35 +2,40 @@
   height: 400px;
   width: 90%;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
   border: 1px solid #999;
- }
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .2);
+}
 
- h1 {
-   font-family: sans-serif;
-   text-align: center;
- }
+body {
+  background: #DBF3FA;
+  font-family: "Gill Sans", sans-serif;
+}
 
- p {
-   font-family: sans-serif;
-   text-align: left;
- }
+h1 {
+  text-align: center;
+}
 
- .text {
-   margin: auto;
-   width: 60%;
-   justify-content: center;
- }
+p {
+  text-align: left;
+}
 
- .container{
-   margin: 1rem;
- }
+.text {
+  margin: auto;
+  width: 60%;
+  justify-content: center;
+}
 
- @media screen and (min-width: 1113px) {
-   #railTrail_map, #main_map {
-     width: 80%;
-   }
-   .text {
-     width: 35%;
-   }
- }
+.container {
+  margin: 1rem;
+}
+
+@media screen and (min-width: 1113px) {
+  #railTrail_map, #main_map {
+    width: 80%;
+  }
+
+  .text {
+    width: 35%;
+  }
+}
