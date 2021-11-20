@@ -1,4 +1,4 @@
-#railTrail_map {
+#railTrail_map, #main_map {
   height: 400px;
   width: 90%;
   margin: auto;
@@ -6,13 +6,11 @@
   border: 1px solid #999;
  }
 
- h1, p {
+ h1 {
    font-family: sans-serif;
    text-align: center;
  }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
  p {
    font-family: sans-serif;
    text-align: left;
@@ -20,20 +18,19 @@
 
  .text {
    margin: auto;
-   width: 35%;
+   width: 60%;
    justify-content: center;
  }
 
-=======
->>>>>>> parent of 00eb1e4 (commit)
-=======
->>>>>>> parent of 00eb1e4 (commit)
  .container{
    margin: 1rem;
  }
 
  @media screen and (min-width: 1113px) {
-   #railTrail_map {
+   #railTrail_map, #main_map {
      width: 80%;
+   }
+   .text {
+     width: 35%;
    }
  }
