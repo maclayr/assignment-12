@@ -10,12 +10,17 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 <<<<<<< HEAD:scripts/main.js
+<<<<<<< HEAD:scripts/main.js
 <<<<<<< HEAD:scripts/firstmap.js
 =======
 var polyline = L.polyline(latlngs).addTo(mymap);
 
 =======
 >>>>>>> parent of 2882ed5 (update):scripts/firstmap.js
+=======
+var polyline = L.polyline(latlngs).addTo(mymap);
+
+>>>>>>> parent of 00eb1e4 (commit):scripts/firstmap.js
 var circle = L.circle([35.20748385793186, -80.86549126476281], {
     color: 'purple',
     fillColor: 'purple',
