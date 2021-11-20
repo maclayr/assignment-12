@@ -1,4 +1,4 @@
-#railTrail_map {
+#railTrail_map, #main_map {
   height: 400px;
   width: 90%;
   margin: auto;
@@ -6,9 +6,20 @@
   border: 1px solid #999;
  }
 
- h1, p {
+ h1 {
    font-family: sans-serif;
    text-align: center;
+ }
+
+ p {
+   font-family: sans-serif;
+   text-align: left;
+ }
+
+ .text {
+   margin: auto;
+   width: 35%;
+   justify-content: center;
  }
 
  .container{
@@ -16,7 +27,7 @@
  }
 
  @media screen and (min-width: 1113px) {
-   #railTrail_map {
+   #railTrail_map, #main_map {
      width: 80%;
    }
  }
