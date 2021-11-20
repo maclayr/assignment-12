@@ -4,3 +4,8 @@
   margin-top: 1rem;
   border: 1px solid #999;
  }
+
+ h1, p {
+   font-family: sans-serif;
+   text-align: center;
+ }
